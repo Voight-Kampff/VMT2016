@@ -33,10 +33,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# For photo processing and storage
+gem 'paperclip'
+gem 'aws-sdk'
+
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'pg'
+  gem 'sqlite3'
 end
 
 group :development do

@@ -11,8 +11,6 @@
  * file per style scope.
  * 
  *= require_self
- *= require bootstrap.css
- *= require jquery.bxslider.css
- *= require rubick.css
- *= require demo.css
+ *= require_rubick
+ *= require_tree .
  */
