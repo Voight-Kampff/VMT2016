@@ -11,29 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160305155446) do
+ActiveRecord::Schema.define(version: 20160320160317) do
 
   create_table "concerts", force: :cascade do |t|
     t.datetime "date"
     t.string   "head"
     t.string   "subhead"
     t.text     "description"
-    t.datetime "created_at",          null: false
-    t.datetime "updated_at",          null: false
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+    t.text     "playlist"
+    t.string   "shortname"
     t.string   "front_file_name"
     t.string   "front_content_type"
     t.integer  "front_file_size"
     t.datetime "front_updated_at"
-    t.string   "image1_file_name"
-    t.string   "image1_content_type"
-    t.integer  "image1_file_size"
-    t.datetime "image1_updated_at"
-    t.string   "image2_file_name"
-    t.string   "image2_content_type"
-    t.integer  "image2_file_size"
-    t.datetime "image2_updated_at"
-    t.text     "playlist"
-    t.string   "shortname"
   end
 
 end
