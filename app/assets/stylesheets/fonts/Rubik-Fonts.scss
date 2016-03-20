@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Verlag-Book';
-	src:font-url('/assets/fonts/Verlag-Book/Verlag-Book.otf') format("opentype");
-	src:font-url('/assets/fonts/Verlag-Book/Verlag-Book.eot');
-	src:font-url('/assets/fonts/Verlag-Book/Verlag-Book.eot') format('embedded-opentype'),
-		font-url('/assets/fonts/Verlag-Book/Verlag-Book.woff') format('woff'),
-		font-url('/assets/fonts/Verlag-Book/Verlag-Book.ttf') format('truetype');
+	src:font-url('Verlag-Book/Verlag-Book.otf') format("opentype");
+	src:font-url('Verlag-Book/Verlag-Book.eot');
+	src:font-url('Verlag-Book/Verlag-Book.eot') format('embedded-opentype'),
+		font-url('Verlag-Book/Verlag-Book.woff') format('woff'),
+		font-url('Verlag-Book/Verlag-Book.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
