@@ -16,7 +16,7 @@
                     
                     <div class="col-md-7 col-md-offset-1">
 
-						<%= form_for(@concert) do |f| %>
+						<%= form_for(@concert, multipart: true) do |f| %>
 
 							<div class="field span7">
 						    	<%= f.label :head %>

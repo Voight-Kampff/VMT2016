@@ -12,6 +12,7 @@ class Concert < ActiveRecord::Base
 	},
 	:url => ':s3_alias_url',
 	:s3_host_alias => 'photos.musicales-tannay.ch'
+	validates_attachment_content_type :front, :content_type => /\Aimage\/.*\Z/
 
 	#image 1 and 2, that will appear on dedicated page
 	has_attached_file :image1, styles: {
