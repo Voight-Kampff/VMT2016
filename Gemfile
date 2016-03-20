@@ -35,7 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # For photo processing and storage
 gem 'paperclip'
-gem 'aws-sdk'
+gem 'aws-sdk', '1.66'
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
