@@ -39,7 +39,8 @@ class ConcertsController < ApplicationController
   	@concert= Concert.new(params[:concert].permit(:head,:subhead))
 
   		if @concert.save
-        	redirect_to 'root', notice: 'Le concert à été ajouté avec succès.'
+        	#redirect_to 'root', notice: 'Le concert à été ajouté avec succès.'
+          render action: 'new'
     	else
         	render action: "new"
       	end
