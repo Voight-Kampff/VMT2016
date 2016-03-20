@@ -22,10 +22,10 @@
 
 @font-face {
 	font-family: 'Slim-Joe';
-	src:font-url('/assets/fonts/Slim-Joe/Slim-Joe.eot');
-	src:font-url('/assets/fonts/Slim-Joe/Slim-Joe.eot') format('embedded-opentype'),
-		font-url('/assets/fonts/Slim-Joe/Slim-Joe.woff') format('woff'),
-		font-url('/assets/fonts/Slim-Joe/Slim-Joe.ttf') format('truetype');
+	src:asset-url('Slim-Joe/Slim-Joe.eot');
+	src:asset-url('Slim-Joe.eot') format('embedded-opentype'),
+		asset-url('Slim-Joe.woff') format('woff'),
+		asset-url('Slim-Joe.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
