@@ -18,6 +18,8 @@ module VMT2015
 
     config.assets.enabled = true
 
+    config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
+
     #Add path for fonts. Doesn't seem to matter
     #config.assets.paths << Rails.root.join("app", "assets", "fonts")
 
