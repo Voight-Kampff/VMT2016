@@ -1,0 +1,57 @@
+<% provide(:title, 'Ajouter un concert') %>
+	
+		<div class="section section-we-are-2 radu" id="whoWeAre">
+       	<div class="text-area">
+        	<div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                      <div class="title add-animation">
+                          <h5 class="text-gray">Admin</h5>
+                          <h2>Ajouter un concert</h2>
+                          <div class="separator-container">
+                          <div class="separator line-separator">∎</div>
+                        </div>
+                      </div>  
+                    </div>
+                    
+                    <div class="col-md-7 col-md-offset-1">
+
+						<%= form_for(@concert) do |f| %>
+
+							<div class="field span7">
+						    	<%= f.label :head %>
+							</br>
+						    <%= f.text_field :head %>
+						  </div>
+						  <div class="field span6">
+						    <%= f.label :subhead %>
+						    </br>
+						    <%= f.text_field :subhead %>
+						  </div>
+						  <div class="field span3">
+						    <%= f.label :front %>
+						    </br>
+						    <%= f.file_field :front %>
+						  </div>
+						  <div class="field span3">
+						    <%= f.label :image1 %>
+						    </br>
+						    <%= f.file_field :image1 %>
+						  </div>
+						  <div class="field span3">
+						    <%= f.label :image2 %>
+						    </br>
+						    <%= f.file_field :image2 %>
+						  </div>
+						  <div class="actions">
+						  	</br>
+						    <%= f.button 'Ajouter', :class => 'btn btn-primary' %>
+						  </div>
+						<% end %>	
+                    </div>
+                </div>          
+            </div>
+        </div>
+    </div>
+
+

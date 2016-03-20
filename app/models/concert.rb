@@ -2,7 +2,9 @@ class Concert < ActiveRecord::Base
 
 	serialize :playlist, Array
 	has_many :artists
-	has_many :items
+	
+
+	#has_many :items
 
 	#front: images that will appear on program page
 	has_attached_file :front, styles: {
@@ -23,7 +25,5 @@ class Concert < ActiveRecord::Base
 	},
 	:url => ':s3_alias_url',
 	:s3_host_alias => 'photos.musicales-tannay.ch'
-
-	private
 
 end
