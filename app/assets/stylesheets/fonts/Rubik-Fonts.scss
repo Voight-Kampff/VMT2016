@@ -1,21 +1,21 @@
 @font-face {
 	font-family: 'Verlag-Book';
-	src:font-url('/assets/fonts/Verlag-Book/Verlag-Book.otf') format("opentype");
-	src:font-url('/assets/fonts/Verlag-Book.eot');
-	src:font-url('/assets/fonts/Verlag-Book.eot') format('embedded-opentype'),
-		font-url('/assets/fonts/Verlag-Book.woff') format('woff'),
-		font-url('/assets/fonts/Verlag-Book/Verlag-Book.ttf') format('truetype');
+	src:asset-url('Verlag-Book/Verlag-Book.otf') format("opentype");
+	src:asset-url('Verlag-Book/Verlag-Book.eot');
+	src:asset-url('Verlag-Book/Verlag-Book.eot?#iefix') format('embedded-opentype'),
+		asset-url('Verlag-Book/Verlag-Book.woff') format('woff'),
+		font-url('Verlag-Book/Verlag-Book.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Verlag-Book';
-	src:font-url('/assets/fonts/Verlag-Book/Verlag-Bold.otf') format("opentype");
-	src:font-url('/assets/fonts/Verlag-Book/Verlag-Bold.eot?d7yf1v');
-	src:font-url('/assets/fonts/Verlag-Book/Verlag-Bold.eot?#iefixd7yf1v') format('embedded-opentype'),
-		font-url('/assets/fonts/Verlag-Book/Verlag-Bold.woff?d7yf1v') format('woff'),
-		font-url('/assets/fonts/Verlag-Book/Verlag-Bold.ttf?d7yf1v') format('truetype');
+	src:asset-url('Verlag-Book/Verlag-Bold.otf') format("opentype");
+	src:asset-url('Verlag-Book/Verlag-Bold.eot');
+	src:asset-url('Verlag-Book/Verlag-Bold.eot?#iefix') format('embedded-opentype'),
+		asset-url('Verlag-Book/Verlag-Bold.woff') format('woff'),
+		asset-url('Verlag-Book/Verlag-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
@@ -23,7 +23,7 @@
 @font-face {
 	font-family: 'Slim-Joe';
 	src:asset-url('Slim-Joe/Slim-Joe.eot');
-	src:asset-url('Slim-Joe/Slim-Joe.eot') format('embedded-opentype'),
+	src:asset-url('Slim-Joe/Slim-Joe.eot?#iefix') format('embedded-opentype'),
 		asset-url('Slim-Joe/Slim-Joe.woff') format('woff'),
 		asset-url('Slim-Joe/Slim-Joe.ttf') format('truetype');
 	font-weight: normal;
