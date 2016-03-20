@@ -21,7 +21,7 @@ module VMT2015
     #config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
 
     #Add path for fonts. Doesn't seem to matter
-    config.assets.paths << Rails.root.join("app", "assets", "fonts")
+    #config.assets.paths << Rails.root.join("app", "assets", "fonts")
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
